@@ -1,0 +1,16 @@
+body {
+  font-family: Inter, sans-serif;
+  text-align: center;
+  background: #fff;
+  color: #111;
+  margin: 0;
+  padding: 2rem;
+}
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
