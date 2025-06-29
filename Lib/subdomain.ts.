@@ -1,0 +1,7 @@
+export function getSubdomain(hostname: string) {
+  const parts = hostname.split('.')
+  if (parts.length > 2) {
+    return parts[0] // e.g. sub.taplifylife.vercel.app -> "sub"
+  }
+  return null
+}
